@@ -20,7 +20,7 @@ if ($config) {
 
     function isOther($name)
     {
-        $list = ['jmartz', 'magento2', 'lumen'];
+        $list = ['jmartz', 'magento2', 'lumen', 'hetzner'];
 
         return in_array($name, $list);
     }
