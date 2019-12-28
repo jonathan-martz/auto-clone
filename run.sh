@@ -1,3 +1,3 @@
 #!/usr/bin/zsh
 
-php jmartz-auto-clone/auto-clone.php
+php other/auto-clone/auto-clone.php
