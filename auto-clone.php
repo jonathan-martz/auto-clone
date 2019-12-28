@@ -36,7 +36,7 @@ if ($config) {
 
             $newData[$name[0]][] = [
                 'name' => $repo->name,
-                'url' => $repo->clone_url
+                'url' => $repo->ssh_url
             ];
         } else {
             if (empty($newData['other'])) {
@@ -45,7 +45,7 @@ if ($config) {
 
             $newData['other'][] = [
                 'name' => $repo->name,
-                'url' => $repo->clone_url
+                'url' => $repo->ssh_url
             ];
         }
     }
